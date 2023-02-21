@@ -16,7 +16,7 @@
             <a href="/signin">Signin</a>
             <a href="/signup">Signup</a>
         {:else}
-        <a href="/" on:click={()=>{localStorage.remove()}}>logout</a>
+        <a href="/" on:click={()=>{localStorage.clear()}}>logout</a>
         {/if}
     </div>
 </nav>
